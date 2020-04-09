@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutPinjamRuangActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".PinjamRuangActivity">
+
+    <TextView
+        android:id="@+id/textViewJudul"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pinjam Ruang"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/pangolin_regular"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <TableLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:fontFamily="@font/pangolin_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ruang" />
+
+            <EditText
+                android:id="@+id/editTextRuang"
+                android:fontFamily="@font/pangolin_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:ems="10"
+                android:hint="Misal : 301 Kampus 1"
+                android:inputType="textPersonName" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:fontFamily="@font/pangolin_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tanggal" />
+
+            <EditText
+                android:id="@+id/editTextTanggal"
+                android:fontFamily="@font/pangolin_regular"
+                android:ems="10"
+                android:hint="Tanggal meminjam"
+                android:clickable="true"
+                android:cursorVisible="false"
+                android:focusable="true"
+                android:focusableInTouchMode="false"
+                android:inputType="text" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:fontFamily="@font/pangolin_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Waktu" />
+
+            <EditText
+                android:id="@+id/editTextJamAwal"
+                android:fontFamily="@font/pangolin_regular"
+                android:ems="10"
+                android:hint="Waktu meminjam"
+                android:clickable="true"
+                android:cursorVisible="false"
+                android:focusable="true"
+                android:focusableInTouchMode="false"
+                android:inputType="text" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:fontFamily="@font/pangolin_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sampai" />
+
+            <EditText
+                android:id="@+id/editTextJamAkhir"
+                android:fontFamily="@font/pangolin_regular"
+                android:ems="10"
+                android:hint="Waktu selesai meminjam"
+                android:clickable="true"
+                android:cursorVisible="false"
+                android:focusable="true"
+                android:focusableInTouchMode="false"
+                android:inputType="text" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:fontFamily="@font/pangolin_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Peminjam" />
+
+            <EditText
+                android:id="@+id/editTextNamaPeminjam"
+                android:fontFamily="@font/pangolin_regular"
+                android:ems="10"
+                android:hint="Misal : HIMATIF"
+                android:inputType="textPersonName" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:fontFamily="@font/pangolin_regular"
+                android:text="Keperluan" />
+
+            <EditText
+                android:id="@+id/editTextKeperluan"
+                android:fontFamily="@font/pangolin_regular"
+                android:ems="10"
+                android:hint="Misal : Rapat rutin"
+                android:inputType="textPersonName" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/buttonSubmit"
+                android:fontFamily="@font/pangolin_regular"
+                android:background="@drawable/custom_button_dark"
+                android:textColor="@color/colorPrimary"
+                android:textAllCaps="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit" />
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

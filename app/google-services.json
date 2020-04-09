@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1093379040214",
+    "firebase_url": "https://e-room-cca0d.firebaseio.com",
+    "project_id": "e-room-cca0d",
+    "storage_bucket": "e-room-cca0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093379040214:android:f0d95ad88714b47097ba77",
+        "android_client_info": {
+          "package_name": "com.project.e_room"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093379040214-85g96fipludc3hcc2n4s7juaadv92ibb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsQ2HAve6ujT4DDZ7DkW1Wq4q993Xpgqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093379040214-85g96fipludc3hcc2n4s7juaadv92ibb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
